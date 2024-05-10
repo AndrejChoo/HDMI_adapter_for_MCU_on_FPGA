@@ -46,6 +46,11 @@
 ![Markdown](https://github.com/AndrejChoo/HDMI_adapter_for_MCU_on_FPGA/blob/main/Images/ep4ce6_boarg.jpg)
 
 Для управления видеоадаптером использовал отладочную плату Black pill с stm32f411ceu на борту. Хотя можно использовать и что-то более медленное, типа arduino (nano/uno). Для stm32 написал небольшой  демонстрационный проект (см. в папке "Firmware") с выводом текста, в котором есть библиотека с минимальным набором функций для работы с адаптером. 
+
+Вывод на экран всех символов знакогенератора: 
+
+![Markdown](https://github.com/AndrejChoo/HDMI_adapter_for_MCU_on_FPGA/blob/main/Images/ascii.jpg)
+
 Пример вывода текста на экран:
 
 ![Markdown](https://github.com/AndrejChoo/HDMI_adapter_for_MCU_on_FPGA/blob/main/Images/hello.jpg)
